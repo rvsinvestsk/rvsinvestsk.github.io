@@ -174,7 +174,7 @@ h3 {
 	margin-top: 10px;
 }
 
-.primary {
+.primary{
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: -webkit-flex;
@@ -322,7 +322,7 @@ h3 {
 	background-color: #2389DA;
 	padding-top: 100px;
 	padding-bottom: 100px;
-	height: 100vh;
+	min-height: 80vh;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: -webkit-flex;
