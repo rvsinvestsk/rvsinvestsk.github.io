@@ -43,14 +43,18 @@ body {
 }
 
 
-
+.photo__cluster-one {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 .click-zoom input[type=checkbox] {
     display: none
 }
 
 .click-zoom img {
-    margin: 100px;
+    /* margin: 100px; */
     transition: transform 0.25s ease;
     cursor: zoom-in
 }
@@ -89,7 +93,7 @@ body {
     .photo__cluster-one img,
     .photo__cluster-two img {
         height: 150px;
-      
+
     }
 
     .click-zoom input[type=checkbox]:checked~img {
@@ -97,4 +101,3 @@ body {
         cursor: zoom-out
     }
 }
-
