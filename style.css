@@ -1,25 +1,45 @@
 @font-face {
-	font-family: 'Muller ExtraBold';
-	src: url('fonts/muller/MullerExtraBold.eot');
-	src: local('fonts/muller/Muller ExtraBold'), local('MullerExtraBold'),
-		url('fonts/muller/MullerExtraBoldDEMO.eot?#iefix') format('embedded-opentype'),
-		url('fonts/muller/MullerExtraBoldDEMO.woff') format('woff'),
+	font-family: 'Moderustic-ExtraBold';
+	src: url('fonts/Moderustic/Moderustic-ExtraBold.ttf');
+	src: local('fonts/Moderustic/Moderustic ExtraBold'), local('Moderustic-ExtraBold'),
+		url('fonts/Moderustic/Moderustic-ExtraBold.ttf?#iefix') format('truetype'),
+		url('fonts/Moderustic/Moderustic-ExtraBold.ttf') format('ttf'),
 		font-weight: 800;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Muller Regular';
-	src: url('fonts/muller/MullerRegular.eot');
-	src: local('fonts/muller/Muller Regular'), local('MullerRegular-Regular'),
-		url('fonts/muller/MullerRegular.woff') format('woff'),
-		url('fonts/muller/MullerRegular.eot?#iefix') format('embedded-opentype');
+	font-family: 'Moderustic-Regular';
+	src: url('fonts/Moderustic/Moderustic-Regular.ttf');
+	src: local('fonts/Moderustic/Moderustic Regular'), local('Moderustic-Regular'),
+		url('fonts/Moderustic/Moderustic-Regular.ttf') format('ttf'),
+		url('fonts/Moderustic/Moderustic-Regular.ttf?#iefix') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Nimbus-Bold';
+	src: url('fonts/NimbusNimbusSanL-Bol.otf');
+	src: local('fonts/Nimbus/Moderustic ExtraBold'), local('NimbusSanL-Bol'),
+		url('fonts/Nimbus/NimbusSanL-Bol.otf?#iefix') format('truetype'),
+		url('fonts/Nimbus/NimbusSanL-Bol.otf') format('otf'),
+		font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Nimbus-Regular';
+	src: url('fonts/Nimbus/NimbusSanL-Reg.otf');
+	src: local('fonts/Nimbus/Moderustic Regular'), local('NimbusSanL-Reg'),
+		url('fonts/Nimbus/NimbusSanL-Reg.otf') format('otf'),
+		url('fonts/Nimbus/NimbusSanL-Reg.otf?#iefix') format('truetype');
 	font-weight: 400;
 	font-style: normal;
 }
 
 body {
-	font-family: 'Muller Regular', sans-serif !important;
+	font-family: 'Nimbus-Regular', sans-serif !important;
 	font-weight: 400 !important;
 
 }
@@ -74,7 +94,7 @@ input[type="color"]:focus,
 }
 
 h3 {
-	font-family: 'Muller ExtraBold', sans-serif !important;
+	font-family: 'Nimbus-Bold', sans-serif !important;
 	font-weight: 800;
 }
 
@@ -192,7 +212,7 @@ h3 {
 
 .primary h1,
 .primary h4 {
-	font-family: Muller ExtraBold, sans-serif;
+	font-family: Nimbus-Bold, sans-serif;
 	max-width: 480px;
 	font-weight: 800;
 	color: white;
@@ -218,7 +238,7 @@ h3 {
 
 .primary .slink .slink-items p {
 	margin-bottom: 0;
-	font-family: Muller Regular, sans-serif;
+	font-family: Moderustic-Regular, sans-serif;
 }
 
 .primary .slink .slink-items i {
@@ -370,7 +390,7 @@ h3 {
 .contacts h4 {
 	color: white;
 	font-weight: 800;
-	font-family: Muller ExtraBold, sans-serif;
+	font-family: Nimbus-Bold, sans-serif;
 }
 
 #contacts {
